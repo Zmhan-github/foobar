@@ -22,6 +22,6 @@ function createQueue() {
   }
 }
 
-
-const q = createQueue()
-console.log(q.length)
+module.exports = {
+  createQueue
+};
